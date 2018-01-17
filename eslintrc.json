@@ -1,0 +1,39 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "classes": true
+    },
+    "sourceType": "module"
+  },
+
+  "env": {
+    "es6": true,
+    "node": true
+  },
+
+  "globals": {
+    "document": false,
+    "navigator": false,
+    "window": false
+  },
+
+  "extends": ["standard"],
+
+  "rules": {
+    "comma-dangle": ["warn", {
+        "arrays": "always",
+        "objects": "always",
+        "imports": "always",
+        "exports": "always",
+        "functions": "ignore"
+    }],
+    "array-bracket-spacing": ["warn", "always"],
+    "object-curly-spacing": ["warn", "always"],
+    "no-sequences": ["off"],
+    "no-console": ["warn"],
+    "standard/object-curly-even-spacing": ["off"]
+  }
+}
