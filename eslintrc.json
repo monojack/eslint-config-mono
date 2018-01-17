@@ -24,11 +24,11 @@
 
   "rules": {
     "comma-dangle": ["warn", {
-        "arrays": "always",
-        "objects": "always",
-        "imports": "always",
-        "exports": "always",
-        "functions": "ignore"
+      "arrays": "always",
+      "objects": "always",
+      "imports": "always",
+      "exports": "always",
+      "functions": "ignore"
     }],
     "array-bracket-spacing": ["warn", "always"],
     "object-curly-spacing": ["warn", "always"],
