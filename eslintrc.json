@@ -20,12 +20,7 @@
     "window": false
   },
 
-  "plugins": [
-    "import",
-    "node",
-    "promise",
-    "standard"
-  ],
+  "extends": ["standard"],
 
   "rules": {
     "comma-dangle": ["warn", {
