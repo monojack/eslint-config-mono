@@ -42,17 +42,18 @@ Then, add this to your `.eslintrc` file:
 
 ```json
 {
+  "array-bracket-spacing": ["warn", "always"],
   "comma-dangle": ["warn", {
     "arrays": "always",
     "objects": "always",
     "imports": "always",
     "exports": "always",
     "functions": "ignore"
-  }],
-  "array-bracket-spacing": ["warn", "always"],
-  "object-curly-spacing": ["warn", "always"],
+    }],
+  "quote-props": ["warn", "as-needed", { "keywords": true }],
   "no-sequences": ["off"],
   "no-console": ["warn"],
+  "object-curly-spacing": ["warn", "always"],
   "standard/object-curly-even-spacing": ["off"]
 }
 ```
