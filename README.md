@@ -9,7 +9,7 @@
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) heavily based on [JavaScript Standard Style](http://standardjs.com)
 
->*Note: This is really intended for personal use, but feel free to use it if it looks good to you*
+> _Note: This is really intended for personal use, but feel free to use it if it looks good to you_
 
 ## Install
 
@@ -27,7 +27,7 @@ official ESLint website.
 To use the JavaScript Standard Style shareable config, first run this:
 
 ```bash
-npm install -D -E eslint-config-mono eslint-config-standard eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install -D -E eslint eslint-config-mono
 ```
 
 Then, add this to your `.eslintrc` file:
@@ -43,13 +43,16 @@ Then, add this to your `.eslintrc` file:
 ```json
 {
   "array-bracket-spacing": ["warn", "always"],
-  "comma-dangle": ["warn", {
-    "arrays": "always",
-    "objects": "always",
-    "imports": "always",
-    "exports": "always",
-    "functions": "ignore"
-    }],
+  "comma-dangle": [
+    "warn",
+    {
+      "arrays": "always",
+      "objects": "always",
+      "imports": "always",
+      "exports": "always",
+      "functions": "ignore"
+    }
+  ],
   "quote-props": ["warn", "as-needed", { "keywords": true }],
   "no-sequences": ["off"],
   "no-console": ["warn"],
